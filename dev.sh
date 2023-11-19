@@ -1,4 +1,5 @@
 #!/bin/bash
+
 source config.sh
 
 _parallel() {
@@ -21,6 +22,3 @@ _parallel() {
 ./build.sh
 
 _parallel "npx live-server www"  "./dev-watch.sh" 
-
-# gnu parallel not logging for some reason
-# parallel ::: "npx live-server $TARGET_DIR" "./dev-watch.sh"
