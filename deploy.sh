@@ -7,4 +7,6 @@ rm -r ./* &&
 cp -a ~/code/website/www/. ~/code/mclarkedev.github.io/ &&
 git add . &&
 git commit -m "deploy: $COMMIT" &&
-git push
+git push &&
+open https://github.com/mclarkedev/mclarkedev.github.io/deployments &&
+echo "[deploy.sh] deployed $COMMIT"
