@@ -131,12 +131,13 @@ main {
   background-size: 1.7em 1.7em;
   background-image: repeating-linear-gradient(
     0deg,
-    #444df7,
+    #444df773,
     #444df700 1px,
     #e5e5f700 1px,
     #e5e5f700
   );
 } */
+
 /* 
 nav {
   background-color: #000000;
